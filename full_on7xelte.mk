@@ -18,13 +18,10 @@
 $(call inherit-product, device/samsung/on7xelte/device.mk)
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
-
-# Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_on7xelte
+PRODUCT_NAME := full_on7xelte
 PRODUCT_DEVICE := on7xelte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G610F

@@ -54,6 +54,9 @@ persist.sys.ui.hw=true
 media.stagefright.legacyencoder=1
 media.stagefright.less-secure=1
 
+# Model
+ro.product.model=SM-G610F
+
 #Fix poor gamming performance
 debug.egl.force_msaa=true
 
